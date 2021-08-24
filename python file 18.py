@@ -140,6 +140,7 @@ data['subjectivity'] = data['Review'].apply(get_subjectivity)
 
 
 data[['length','polarity','subjectivity']].describe()
+data.head()
 
 
 # In[ ]:
