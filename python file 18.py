@@ -134,13 +134,14 @@ def get_subjectivity(text):
     return subj
 
 data['subjectivity'] = data['Review'].apply(get_subjectivity)
+data.head()
 
 
 # In[43]:
 
 
 data[['length','polarity','subjectivity']].describe()
-data.head()
+
 
 
 # In[ ]:
